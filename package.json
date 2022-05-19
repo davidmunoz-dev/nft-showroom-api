@@ -1,0 +1,32 @@
+{
+  "name": "nft-showroom-api",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/good": "^9.0.1",
+    "@hapi/good-console": "^9.0.1",
+    "@hapi/good-squeeze": "^6.0.0",
+    "@hapi/hapi": "^20.2.2",
+    "@hapi/inert": "^6.0.4",
+    "@hapi/scooter": "^6.0.1",
+    "@hapi/vision": "^6.1.0",
+    "blipp": "^4.0.2",
+    "boom": "^7.3.0",
+    "hapi-alive": "^2.0.4",
+    "hapi-pagination": "^4.0.0",
+    "hapi-pino": "^9.3.0",
+    "hapi-swagger": "^14.3.0",
+    "joi": "^17.4.2",
+    "luxon": "^2.3.2",
+    "module-alias": "^2.2.2",
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.0",
+    "mongoose-hidden": "^1.9.1",
+    "mongoose-timestamp": "^0.6.0"
+  },
+  "scripts": {
+    "yarn installDependencies": "rm -rf yarn.lock && yarn install",
+    "start-local": "NODE_ENV=local node index.js"
+  }
+}
